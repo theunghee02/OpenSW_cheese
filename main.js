@@ -85,7 +85,3 @@ app.listen(port,() => {
 // result.stdout.on('data', function(data) {
 //     console.log(data.toString());
 // });
-
-// result.stderr.on('data', function(data) {
-//     console.log(data.toString());
-// });
