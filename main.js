@@ -76,12 +76,3 @@ app.listen(port,() => {
   console.log("서버 실행 중");
   }
 );
-
-
-// const spawn = require('child_process').spawn;
-
-// const result = spawn('python', ['graph.py'));
-
-// result.stdout.on('data', function(data) {
-//     console.log(data.toString());
-// });
