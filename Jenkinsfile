@@ -7,7 +7,7 @@ node {
         app = docker.build("cheese/test")
     }
     stage('Push image') {
-        docker.withRegistry('https://registry.hub.docker.com', 'theunghee02') {
+        docker.withRegistry('https://registry.hub.docker.com', 'db4d86bd-9721-45bc-9f1a-bd50bca92f4c') {
             app.push("${env.BUILD_NUMBER}")
             app.push("latest")
         }
