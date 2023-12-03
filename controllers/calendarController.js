@@ -54,7 +54,6 @@ exports.getCalendar = async function (req, res) {
   }
 }
 
-
 exports.postCalendar = async function (req, res) {
   const token = req.cookies.x_auth;
   if (token) {
@@ -161,8 +160,6 @@ exports.postFile = async function (req, res) {
         </script>
       `); 
     }
-
-
 
     if (!req.file) {
       return res.send(`
